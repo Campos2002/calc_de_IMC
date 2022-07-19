@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/script.js" defer></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <title>Cálculo de IMC</title>
+    </head>
+    <body>
+
+        <header id="cabecalho">
+            <p class="titulo">Cálculo de IMC</p>
+        </header>
+
+        <main id="container">
+
+            <form id="form">
+                <label for="nome" >Qual seu nome?</label><input type="text" id="nome" name="nome" class="nome">
+                <label for="altura">Informe sua altura</label><input type="text" id="altura" name="altura" class="altura">
+                <label for="peso">Informe seu peso</label><input type="text" id="peso" name="peso" class="peso">
+                <button type="submit">Calcular</button>
+            </form>
+
+            <div id="resultado"> <!-- Linkado no JS -->
+
+            </div>           
+
+        </main>
+        
+    </body>
+</html>

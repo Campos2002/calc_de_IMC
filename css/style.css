@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap');
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-image: url(../img/bkg2.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    font-family: 'Poppins', sans-serif;
+}
+
+#cabecalho {
+    width: auto;
+    height: 80px;
+    background-color: rgb(240, 157, 89);
+    /* SOMBRAS */
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    margin-bottom: 120px;
+}
+
+.titulo {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 35px;
+    margin: 0px;
+    padding: 20px 0px 0px 0px;
+}
+
+#form {
+    width: 400px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    /* GLASSMORPHISM */
+    background: rgba(223, 136, 66, 0.541);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(4.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#form input {
+    align-items: center;
+    border-radius: 5px;
+    height: 20px;
+}
+
+#form button {
+    height: 35px;
+    width: 90px;
+    border-radius: 5px;
+    margin-top: 30px;
+    background-color: rgb(253, 253, 253);
+}
+
+#form label {
+    padding: 0px;
+    margin: 17px;
+    font-size: 19px;
+}
+
+.resultado-padrao {
+    width: 400px;
+    text-align: center;
+    padding: 5px;
+    margin: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    /* GLASSMORPHISM */
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(4.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.bkg-verde {
+    background: rgba(59, 235, 162, 0.582);
+}
+
+.bkg-vermelho {
+    background: rgba(236, 50, 50, 0.582);
+}
